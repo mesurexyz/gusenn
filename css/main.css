@@ -1,0 +1,84 @@
+﻿/* 企业信息管理样式表 */
+/*全局定义开始*/
+*
+{margin:0; padding:0}
+
+html{
+    overflow-x:hidden
+}
+
+body{background:#FFFFFF;}
+
+table,td,th,input
+{
+	font-size:14px;
+	font-family: "微软雅黑",Arial;
+	color:#444444;
+	line-height:1.5em;
+}
+
+a 
+{
+	color:#13198D; 
+	text-decoration:none
+}
+
+a:hover
+{
+	color:#F60101;
+	text-decoration:none
+}
+
+.fontDesc
+{
+    display:none
+}
+
+.menu01{float:right}
+.menu01 ul{margin:0;list-style:none}
+.menu01 li{float:left;display:block;height:55px; padding-top:40px; padding-left:24px; padding-right:24px; line-height:42px;text-align:center;font-size:16px; cursor:pointer}
+.menu01 li:hover{padding-left:24px; padding-right:24px; background:url(../images/main/bg_Menu_Mask.png); line-height:42px; font-size:16px}
+.menu01 li:hover a{color:#000000}
+.menu01 li:hover a:hover{color:#000000}
+.menu01 li a{height:42px;line-height:42px; font-size:16px; color:#940104}
+.menu01 li a:hover{!important;color:#000000!important;}
+.menu01 .active{background:url(../images/main/bg_Menu_Mask.png)}
+
+.contactIcon{width:360px; height:56px}
+.contactIcon ul{margin:0;list-style:none}
+.contactIcon li{float:left;display:block;height:56px; width:90px; cursor:pointer}
+.contactIcon .QQ{background:url(../images/contactIcons.png) 12px 0px no-repeat}
+.contactIcon .QQ:hover{background:url(../images/contactIcons.png) 12px -86px no-repeat}
+.contactIcon .weibo{background:url(../images/contactIcons.png) -68px 0px no-repeat}
+.contactIcon .weibo:hover{background:url(../images/contactIcons.png) -68px -86px no-repeat}
+.contactIcon .weixin{background:url(../images/contactIcons.png) -148px 0px no-repeat}
+.contactIcon .weixin:hover{background:url(../images/contactIcons.png) -148px -86px no-repeat}
+.contactIcon .wek{background:url(../images/contactIcons.png) -223px 0px no-repeat}
+.contactIcon .wek:hover{background:url(../images/contactIcons.png) -223px -86px no-repeat}
+
+.contactIcon_main{width:312px; height:56px}
+.contactIcon_main ul{margin:0;list-style:none}
+.contactIcon_main li{float:left;display:block;height:56px; width:78px; cursor:pointer}
+.contactIcon_main .QQ{background:url(../images/contactIcons.png) 5px 0px no-repeat}
+.contactIcon_main .QQ:hover{background:url(../images/contactIcons.png) 5px -86px no-repeat}
+.contactIcon_main .weibo{background:url(../images/contactIcons.png) -72px 0px no-repeat}
+.contactIcon_main .weibo:hover{background:url(../images/contactIcons.png) -72px -86px no-repeat}
+.contactIcon_main .weixin{background:url(../images/contactIcons.png) -148px 0px no-repeat}
+.contactIcon_main .weixin:hover{background:url(../images/contactIcons.png) -148px -86px no-repeat}
+.contactIcon_main .wek{background:url(../images/contactIcons.png) -223px 0px no-repeat}
+.contactIcon_main .wek:hover{background:url(../images/contactIcons.png) -223px -86px no-repeat}
+
+.td01{color:#FFFFFF; padding-top:15px; padding-left:20px; padding-right:15px; padding-bottom:12px; width:1107px}
+.td01 span{margin-right:15px}
+.td01 span a{color:#AAAAAA}
+.td01 span a:hover{color:#cc0000}
+
+
+.caseMenu{width:1280px; padding-top:30px; text-align:left}
+.caseMenu .link01{width:320px; height:100px; background:#bc0407 url(../images/main/title_cases.png) 75px -103px no-repeat}
+.caseMenu .link02{width:319px; height:100px; position:absolute; margin-left:321px; background:#eeeeee url(../images/main/title_cases.png) -250px 19px no-repeat; cursor:pointer}
+.caseMenu .link02:hover{background:#bc0407 url(../images/main/title_cases.png) -250px -103px no-repeat}
+.caseMenu .link03{width:319px; height:100px; position:absolute; margin-left:641px; background:#eeeeee url(../images/main/title_cases.png) -565px 19px no-repeat; cursor:pointer}
+.caseMenu .link03:hover{background:#bc0407 url(../images/main/title_cases.png) -565px -103px no-repeat}
+.caseMenu .link04{width:319px; height:100px; position:absolute; margin-left:961px; background:#eeeeee url(../images/main/title_cases.png) -840px 19px no-repeat; cursor:pointer}
+.caseMenu .link04:hover{background:#bc0407 url(../images/main/title_cases.png) -840px -103px no-repeat}

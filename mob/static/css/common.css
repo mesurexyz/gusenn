@@ -1,0 +1,27 @@
+/*commom.css*/
+html{height:100%;font-family: "Microsoft YaHei";} 
+body{margin: 0px;width: 100%;}
+.of{overflow: hidden;}
+.fl{float:left;}
+.fr{float: right;}
+.ab{position:absolute;width:100%}
+a{-webkit-tap-highlight-color: rgba(240,240,240,0);text-decoration:none;}
+a:link {color:#fff;text-decoration:none;}
+a:visited {color:#fff}
+a:hover {text-decoration:underline}
+a:active {color:#fff}
+.index-bottom{background:#C5271E;position: fixed;bottom: 0;left: 0;width:100%;height: 65px; }
+.index-bottom .ib-img{float: left;width: 33.33%;height: 65px;text-align: center;}
+.panel a{display: block;line-height: 40px;text-indent: 1em;}
+.panel .panel-title{color: #fff;font-size: 20px;padding: 20px 5px 10px 15px;}
+.panel .panel-content{color: #DCDCDC;border-bottom: 1px solid #C5261D;font-size: 14px;}
+.my-link{-webkit-tap-highlight-color: rgba(240,240,240,0);}
+/*panel*/
+body{width:100%;margin:0;padding:0;}
+.index {width: 100%}
+
+#my-panel{position:fixed;top:0;left:100%;width:160px;height:100%;background-color:#D1514A;border: 0px solid;margin: 0;padding: 0}
+.ani{-webkit-transition: all .3s ease;-ms-transition: all .3s ease;-moz-transition: all .3s ease;-o-transition: all .3s ease;transition: all .3s ease;}
+#right-side-overlay{position:fixed;top:0;right:0;height:100%;width:100%;display:none;background: rgba(0,0,0,0.2)}
+.body-open #right-side-overlay{display:block;z-index: 10}
+.body-open .index-bottom,.body-open #my-panel,.body-open .index{margin-left:-160px;z-index: 15}
